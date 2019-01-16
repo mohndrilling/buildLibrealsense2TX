@@ -48,6 +48,7 @@ which may prove useful for debugging purposes.
 The script is more provided as a guide on how to build a system that supports librealsense2 than as a practical method to generate a new system.
 
 <h2>Install librealsense 2.0</h2>
+EDIT Eirik: May need to remove -mavx2 from CMakeLists.txt if cmake fails https://github.com/IntelRealSense/librealsense/issues/1574
 To install the librealsense library:
 
 $ ./installLibrealsense.sh
